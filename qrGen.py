@@ -1,7 +1,7 @@
 import qrcode
 from PIL import Image
 
-link = 'https://washingtonyandun.githu'
+link = 'https://github.com/WashingtonYandun' #link, text or number . This is just an example
 imagen = qrcode.make(link)
 
 nombreImagen = 'gol.png'
