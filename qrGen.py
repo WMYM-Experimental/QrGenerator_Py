@@ -2,12 +2,12 @@ import qrcode
 from PIL import Image
 
 link = 'https://github.com/WashingtonYandun' #link, text or number . This is just an example
-imagen = qrcode.make(link)
+img = qrcode.make(link)
 
-nombreImagen = 'gol.png'
-archivoImagen = open(nombreImagen, 'wb')
-imagen.save(archivoImagen)
-archivoImagen.close()
+nameImg = 'gol.png'
+fileImg = open(nameImg, 'wb')
+img.save(fileImg)
+fileImg.close()
 
-ruta = './'+nombreImagen
-Image.open(ruta).show()
+ph = './'+ nameImg
+img.open(ph).show()
